@@ -4,7 +4,7 @@
 > [Prevent your computer from going to sleep, click HERE to download the program](https://www.zhornsoftware.co.uk/caffeine/caffeine.zip)
 
 
-### _ _To keep your Microsoft Teams status active._ _
+### _ To keep your Microsoft Teams status active. _
 
 
 #### Method 1: Manually Change Your Status to Available
