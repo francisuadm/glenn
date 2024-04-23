@@ -1,7 +1,7 @@
 # glenn
 
 # [Caffeine](https://www.zhornsoftware.co.uk/caffeine/index.html#home)
-[Prevent your computer from going to sleep](https://www.zhornsoftware.co.uk/caffeine/caffeine.zip)
+[Prevent your computer from going to sleep, click HERE to download the program](https://www.zhornsoftware.co.uk/caffeine/caffeine.zip)
 
 
 ### To keep your Microsoft Teams status active. 
