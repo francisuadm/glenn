@@ -47,4 +47,4 @@ dpkg --list|grep 'samba\|smb'
 
 ```
 
-## Cloudflare tunnel need to be updated.
+## Cloudflare tunnel need to be update.
