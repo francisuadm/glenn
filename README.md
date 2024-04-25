@@ -31,3 +31,18 @@ Caffeine: This is an app that keeps your computer from going idle, and thus keep
 Mouse Jiggler: This is a device that you can buy which moves your mouse slightly every few seconds to keep your computer from going idle.
 AutoHotKey: This is a scripting language for Windows that you can use to automate tasks on your computer. You could write a script that moves your mouse slightly every few minutes to keep your Teams status active.
 ```
+
+
+
+
+## NextCloud
+
+```
+docker exec -it nextcloud bash
+apt-get update
+apt-get install smbclient -y
+exit
+docker restart nextcloud
+dpkg --list|grep 'samba\|smb'
+
+```
