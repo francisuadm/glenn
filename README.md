@@ -48,3 +48,19 @@ dpkg --list|grep 'samba\|smb'
 ```
 
 ## Cloudflare tunnel need to be update.
+
+Mobile app called WiseView
+
+Go to “Main Menu” ; “Parameter” ; “Network” ; “RTSP”. Set User Name 
+and Password to view video by PC software VLC
+•	 RTSP Enable: Enable/Disable
+•	 Verify: Enable/Disable
+•	 RTSP Port: 554
+•	 Instruction:rtsp: //IP:Port/chA/B
+•	 A: 01(ch1), 02(ch2)...
+•	 B: 0(main stream),1(sub stream)
+
+VLC
+Network Protol
+Network URL
+rtsp://192.168.1.22:554/ch01/0
