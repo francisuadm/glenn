@@ -64,3 +64,7 @@ VLC
 Network Protol
 Network URL
 rtsp://192.168.1.22:554/ch01/0
+
+
+https://support.hanwhavisionamerica.com/hc/en-us/articles/22959999056411-Using-VLC-to-view-RTSP-streams-from-Devices
+
