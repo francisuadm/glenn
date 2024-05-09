@@ -77,7 +77,7 @@ https://support.hanwhavisionamerica.com/hc/en-us/articles/22959999056411-Using-V
 # nano /etc/network/interfaces
 
 ```
-GNU nano 7.2                                                                                           /etc/network/interfaces                                                                                                     
+GNU nano 7.2                                                                                                                                                    
 auto lo
 iface lo inet loopback
 
@@ -94,6 +94,13 @@ iface vmbr0 inet static                        <---------   Change it from DHCP 
 iface wlp62s0 inet manual
 source /etc/network/interfaces.d/*
 ```
+
+# After making the changes save it by pressing the following keys
+
+# Press CTRL O then Press ENTER KEY
+# Press CTRL X
+# Now type in
+# reboot then Press ENTER KEY
 
 
 
