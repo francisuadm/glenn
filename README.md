@@ -77,7 +77,7 @@ https://support.hanwhavisionamerica.com/hc/en-us/articles/22959999056411-Using-V
 # nano /etc/network/interfaces
 
 ````
-GNU nano 7.2                                                                                                                                                    
+GNU nano 7.2
 auto lo
 iface lo inet loopback
 
