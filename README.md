@@ -68,3 +68,34 @@ rtsp://192.168.1.22:554/ch01/0
 
 https://support.hanwhavisionamerica.com/hc/en-us/articles/22959999056411-Using-VLC-to-view-RTSP-streams-from-Devices
 
+
+#
+
+
+
+# STEP1:
+# nano /etc/network/interfaces
+
+```
+GNU nano 7.2                                                                                           /etc/network/interfaces                                                                                                     
+auto lo
+iface lo inet loopback
+
+iface enp0s25 inet manual
+
+auto vmbr0
+iface vmbr0 inet static                        <---------   Change it from DHCP to static
+        address 192.168.1.241/24               <---------   Add this line
+        gateway 192.168.1.1                    <---------   Add this line
+        bridge-ports enp0s25
+        bridge-stp off
+        bridge-fd 0
+
+iface wlp62s0 inet manual
+source /etc/network/interfaces.d/*
+```
+
+
+
+
+
